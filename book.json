@@ -1,0 +1,50 @@
+{
+    "title": "某科学的心理掌握",
+    "author": "cnindex",
+	"language": "zh-Hans",
+    "description": "某科学的心理掌握漫画汉化",
+    "plugins": [
+        "chapter-fold",         
+        "code",                 
+        "splitter",             
+        "-lunr",
+        "-search", 
+        "search-pro",           
+        "tbfed-pagefooter",     
+        "popup",                
+        "github",
+        "theme-comscore",       
+        "multipart",            
+        "-livereload",
+        "prism",                
+        "-highlight",
+		"hide-element",
+		"back-to-top-button",
+		"insert-logo"
+    ],
+
+	"pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy cnindex 2021",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism.css"
+            ]
+        },
+        "links": {
+            "sidebar" : {
+                "Home" : ""
+            }
+        },
+		"insert-logo": {
+			"url": "https://s3.bmp.ovh/imgs/2021/11/766ede33f4b96ab7.jpg",
+			"style": "background: none; max-height: 30px; min-height: 30px"
+		},
+		"hide-element": {
+            "elements": [".gitbook-link"]
+        }
+	}
+}
